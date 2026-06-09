@@ -1,0 +1,219 @@
+/*Reset、防爆*/
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #FBF7F0 ;
+    color:#2B1B15;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;/*繼承父元素的顏色*/
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links a{
+    margin-left: 25px;
+    font-style: 14px;
+    opacity: 0.8;/*透明度*/
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color:#e59866
+}
+
+
+.hero-img{
+    flex:1;
+    min-width: 280px;
+    max-width: 540px;
+    width: 100%;
+}
+.hero-avatar-responsive-box{
+    width: 100%;
+    position:relative;/*定位*/
+    aspect-ratio: 1 / 1;/*設定寬高比例*/
+    border-radius: 16px;/*圓角*/
+    background-color: #F2EFE9;
+}
+.rwd-avatar-img{
+    position: absolute;/*絕對定位*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*保持原始比例，填滿整個容器*/
+    object-position: center 25%;
+    border-radius: 16px;
+}
+
+.hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.hero-text{
+    flex:1.2;
+    min-width: 280px;
+}
+.hero-text h1{
+    font-style: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.hero-text p{
+    coloe:#55433c;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.hero-btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.hero-btns a{
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-dark{
+    background-color: #2B1B15;
+    color:#fff;
+}
+.btn-dark:hover{
+    background-color: #e59866;
+    color:#2B1B15;
+}
+.btn-outline{
+    border: 1px solid #2B1B15;
+}
+.btn-outline:hover{
+    background-color: #2B1B15;
+    color:#fff;
+}
+
+
+.services{
+    background-color: #2B1B15;
+    color: #f9f6f0;
+    padding: 80px 20px;
+    width: 100%;
+}
+.section-title{
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    width: 100%;
+}
+.subtitle{
+    color: #e59866;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 5px;
+}
+.section-title h2{
+    font-size: 32px;
+}
+.ser-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    /*網格*/
+    display: grid;
+    /*自動排卡片 每張至少 260px 多的空間平均分配 放不下就自動換行*/
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap:24px;
+    width: 100%;
+}
+.ser-card-new{
+    background-color: #f9f6f0;
+    padding: 40px 30px ;
+    border-radius: 16px;
+    position: relative;
+    color: #2B1B15;
+    border: 1px solid #eee;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+.ser-card-new:hover{
+    transform: translate(-5px);
+    box-shadow: 0 10px 20px rgba(0,0, 0, 0.2);
+}
+.ser-card-new h3{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.ser-card-new p{
+    font-style: 15px;
+    line-height: 1.6;
+    color: #55433c;
+    max-width: 85%;
+    margin-bottom: 30px;
+}
+.icon-top{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-style: 24px;
+    color: #2B1B15;
+}
+.category-tag{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-style: 14px;
+    opacity: 0.9;
+}
+.arrow-btn{
+position: absolute;
+bottom: 30px;
+right: 30px;
+width: 50px;
+height: 50px;
+background-color: #3d3d3d;
+color:#fff;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-style: 16px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.ser-card-new:hover .arrow-btn{
+    background-color: #e59866;
+    color: #2B1B15;
+}
