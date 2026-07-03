@@ -242,6 +242,10 @@ transition: all 0.3s ease;
     height: 480px;
     border-radius: 12px;
 }
+.project-img img {
+  object-fit: cover;
+  border-radius: 12px;
+}
 .project-info-floating {
   position: absolute;
   top: 10%;                  
