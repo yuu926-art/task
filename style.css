@@ -317,5 +317,5 @@ img{
 .explore-more-btn:hover {
     background-color: #E59866; 
     color: #2B1B15;
-    transform: translateY(2px);
+    transform: translateY(-2px);
 }
