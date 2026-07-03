@@ -313,10 +313,9 @@ img{
     font-weight: bold;
     transition: all 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 50px;
 }
 .explore-more-btn:hover {
     background-color: #E59866; 
     color: #2B1B15;
-    transform: translateY(-2px);
+    transform: translateY(2px);
 }
