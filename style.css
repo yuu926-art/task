@@ -218,8 +218,9 @@ img{
     color: #2B1B15;
 }
 
+/*projects*/
 .projects{
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0auto;
     padding: 80px 20px;
     width: 100%;
