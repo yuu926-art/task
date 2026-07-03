@@ -299,10 +299,10 @@ img{
     background-color: #E59866;
     color: #2B1B15;
 }
-.project-more-container {
+.project-more-container{
     display: flex;
     justify-content: center; 
-    margin-top: 50px;        
+    margin-top: 50px;
 }
 .explore-more-btn {
     background-color: #1F1410; 
