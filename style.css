@@ -298,6 +298,7 @@ img{
 .project-btn-dark:hover {
     background-color: #E59866;
     color: #2B1B15;
+    transform: translateX(-2px);
 }
 .project-more-container{
     display: flex;
@@ -318,4 +319,88 @@ img{
     background-color: #E59866; 
     color: #2B1B15;
     transform: translateY(-2px);
+}
+
+/*blog*/
+.blogs{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    width: 100%;
+}
+.blog-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+.blog-title-box .blog-subtitle{
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-bottom: 4px;
+}
+.blog-title-box h2{
+    font-style: 48px;
+    font-weight: bold;
+    color: #3e4e5e;
+    letter-spacing: 1px;
+}
+.more-btn{
+    bottom: 1px solid #2B1B15;
+    padding: 8px 24px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.more-btn:hover{
+    background-color: #2B1B15;
+    color: #fff;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+.blog-post{
+    display: flex;
+    flex-direction: column;
+}
+.blog-img-wrap{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 16px;
+}
+.blog-img-wrap img {
+  object-fit: cover;
+}
+.blog-body .blog-tags{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    margin-bottom: 12px;
+}
+.blog-body h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: auto; 
+}
+.post-stats span {
+  margin-left: 12px;
 }
