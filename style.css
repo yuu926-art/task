@@ -225,7 +225,7 @@ transition: all 0.3s ease;
     width: 100%;
 }
 .text-center{
-    text-align:center
+    text-align:center;
 }
 .project-list{
     display: flex;
@@ -249,11 +249,11 @@ transition: all 0.3s ease;
 .project-info-floating {
   position: absolute;
   top: 10%;                  
-  left: 4%;                  
+  left: 4%;
   width: 38%;                
   max-width: 420px;
   background-color: #F9F6F0; 
-  padding: 40px 30px; /* 稍微縮小內距，留給內容彈性空間 */
+  padding: 40px 30px; 
   border-radius: 8px;        
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   display: flex;
