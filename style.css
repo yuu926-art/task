@@ -221,7 +221,7 @@ img{
 /*projects*/
 .projects{
     max-width: 1200px;
-    margin: 0auto;
+    margin: 0 auto;
     padding: 80px 20px;
     width: 100%;
 }
