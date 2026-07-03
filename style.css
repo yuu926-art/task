@@ -406,33 +406,33 @@ img{
 }
 
 /*i*/
-.subscribe {
-    background: none;
-    background-color: #6A737D; 
-    padding: 0;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr; 
-    align-items: center;
-     width: 100%;
+.subscribe{
+    background:none;
+    background-color:#6A737D; 
+    padding:0;
+    text-align:left;
+    display:grid;
+    grid-template-columns:1fr 1.2fr; 
+    align-items:center;
+     width:100%;
 }
-.sub-image-side {
-    height: 450px;
+.sub-image-side{
+    height:450px;
 }
-.sub-image-side img {
-    object-fit: cover;
+.sub-image-side img{
+    object-fit:cover;
 }
-.sub-content-side {
-    padding: 60px 80px;
-    color: #fff;
+.sub-content-side{
+    padding:60px 80px;
+    color:#fff;
 }
-.sub-mini-title {
-    font-size: 14px;
-    color: #E0E0E0;
-    display: block;
-    margin-bottom: 8px;
+.sub-mini-title{
+    font-size:14px;
+    color:#E0E0E0;
+    display:block;
+    margin-bottom:8px;
 }
-.sub-content-side h2 {
+.sub-content-side h2{
     font-size: 56px;
     font-weight: 900;
     letter-spacing: 2px;
@@ -444,7 +444,6 @@ img{
     color: #F0F0F0;
     margin-bottom: 30px;
 }
-/* 🛠️ 重大修正：設定最大寬度之餘，必須指定 width: 100% 才能隨螢幕縮小完美內縮 */
 .sub-form {
     max-width: 450px;
     width: 100%;            
